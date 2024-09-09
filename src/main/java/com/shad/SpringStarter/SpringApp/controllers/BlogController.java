@@ -1,9 +1,11 @@
 package com.shad.SpringStarter.SpringApp.controllers;
 
 import com.shad.SpringStarter.SpringApp.dto.BlogDTO;
+import com.shad.SpringStarter.SpringApp.dto.FakePostDTO;
 import com.shad.SpringStarter.SpringApp.exceptions.ResourceNotFoundException;
 import com.shad.SpringStarter.SpringApp.services.BlogService;
 import jakarta.validation.Valid;
+import org.apache.coyote.Response;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

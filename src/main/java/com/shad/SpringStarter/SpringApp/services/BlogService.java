@@ -77,4 +77,5 @@ public class BlogService {
         }
         throw new ResourceNotFoundException("Blog does not exist with this Id:"+blogId);
     }
+
 }
